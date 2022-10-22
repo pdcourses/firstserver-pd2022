@@ -4,7 +4,7 @@ require('./routes');
 
 const router = Router();
 
-router.use('/heroes',heroRouter);
+router.use('/heroes',heroRouter); //  /api/heroes/
 router.use('/powers', powerRouter);
 
 module.exports = router;
